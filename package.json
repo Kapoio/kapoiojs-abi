@@ -1,11 +1,11 @@
 {
-  "name": "ethereumjs-abi",
+  "name": "kapoiojs-abi",
   "version": "0.6.8",
   "description": "Decoder and encoder for the Ethereum ABI",
   "main": "index.js",
   "dependencies": {
     "bn.js": "^4.11.8",
-    "ethereumjs-util": "^6.0.0"
+    "kapoiojs-util": "git+https://github.com/ivanshukhov/kapoiojs-util.git#master"
   },
   "devDependencies": {
     "coveralls": "^3.0.3",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axic/ethereumjs-abi.git"
+    "url": "git+https://github.com/ivanshukhov/kapoiojs-abi.git"
   },
   "keywords": [
     "ethereum",
@@ -37,9 +37,9 @@
   "author": "Alex Beregszaszi <alex@rtfs.hu>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/axic/ethereumjs-abi/issues"
+    "url": "https://github.com/ivanshukhov/kapoiojs-abi/issues"
   },
-  "homepage": "https://github.com/axic/ethereumjs-abi",
+  "homepage": "https://github.com/ivanshukhov/kapoiojs-abi",
   "standard": {
     "globals": [
       "describe",
